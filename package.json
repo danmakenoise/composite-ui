@@ -1,0 +1,14 @@
+{
+  "name": "composite-ui",
+  "version": "1.0.0",
+  "description": "The component library used to run composite. Built with composite!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "composite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "composite-react": "file:../composite"
+  }
+}
