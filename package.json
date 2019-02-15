@@ -4,13 +4,22 @@
   "description": "The component library used to run composite. Built with composite!",
   "main": "index.js",
   "scripts": {
-    "dev": "composite"
+    "build": "tsc",
+    "dev": "composite",
+    "lint": "tslint -c ./tslint.json 'src/**/*.ts'"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "@types/react": "^16.8.3",
     "composite-react": "file:../composite",
+    "prettier": "^1.16.4",
     "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.3.3"
   },
   "dependencies": {
