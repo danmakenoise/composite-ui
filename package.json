@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "composite-react": "file:../composite"
+    "composite-react": "file:../composite",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
   },
   "dependencies": {
     "react": "^16.8.2"
