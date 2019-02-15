@@ -2,7 +2,7 @@
   "name": "composite-ui",
   "version": "1.0.0",
   "description": "The component library used to run composite. Built with composite!",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "composite",
