@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "composite-react": "file:../composite"
+  },
+  "dependencies": {
+    "react": "^16.8.2"
   }
 }
