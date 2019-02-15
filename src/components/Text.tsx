@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 type PropsType = {
-  children: JSX.Element;
+  children: React.ReactNode;
 };
 
 const NormalText = styled.span`
